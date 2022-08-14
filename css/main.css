@@ -1,0 +1,112 @@
+
+/***** BASE STYLES *****/
+
+body{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/**** GRID ****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    float:left;
+}
+
+
+/**** HEADER ****/
+
+header h1{
+    padding: 30px 0 50px 25px;
+    font-size:xx-large;
+    color: black;
+}
+
+header h1 span{
+    color:#77a466;
+}
+/****** NAV *****/
+nav{
+    float: left;
+    padding: 50px 25px;
+}
+nav ul li a{
+    text-transform: capitalize;
+    text-decoration:none;
+    color:#77a466;
+    padding-left: 20px;
+    font-weight: bold;
+
+
+}
+nav ul li{
+    display:inline-block;
+}
+
+
+/**** SECTION1 ****/
+#icon{
+    height: 300px;
+    background: url(../img/Hero.png);
+    background-size: cover;
+    background-position: center;
+    border: solid #77a466;
+}
+
+
+/**** SECTION 2 ****/
+#welcome h2{
+text-transform:capitalize;
+font-size: 18px;
+color: #77a466;
+font-weight:bold;
+
+}
+#welcome h3{
+    color: black;
+    font-size: 16px;
+    font-weight:normal;
+
+}
+
+/**** SECTION 3 ****/
+#special h4{
+    border-top: solid grey;
+    font-weight:bold;
+    color: black;
+    border-bottom: solid grey;
+    border-right: solid grey;
+    padding: 0, 30px, 30px;
+}
+#special p{
+    color: #77a456;
+    font-size: 16px;
+
+    border-right: solid grey;
+}
+#special p span{
+    color:black;
+
+}
+
+/**** Reviews ****/
+#fresh h5{
+    padding: 6px;
+    border-top: solid grey;
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+#fresh h5 span{
+    color:greenyellow;
+    font-weight:bold;
+
+}
